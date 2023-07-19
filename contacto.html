@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGenius - Contacto</title>
+    <!--Normalize-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Estilos-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-image-hero">
+        <div class="max-width-1200">
+            <header class="header">
+                <a class="header__logo" href="index.html"><span class="header__logo--fontBold">Code</span>Genius</a>
+                <nav class="navMenu">
+                    <a class="navMenu__link" href="nosotros.html">Acerca de</a>
+                    <a class="navMenu__link" href="cursos.html">Cursos</a>
+                    <a class="navMenu__link" href="contacto.html">Contacto</a>
+                </nav>
+            </header>
+        </div>
+        
+        <section class="hero max-width-1200">
+            <h2 class="hero__message">Blog del Desarrollador Web</h2>
+            <p class="hero__text">Ut dapibus ullamcorper diam ullamcorper interdum. Sed pulvinar, nisl id mollis viverra, eros metus bibendum ante, eu vehicula magna mi at arcu.</p>
+        </section>
+    </div>
+
+    <main class="contenidoPrincipal contenidoPrincipal--contacto max-width-1200">
+        <h2 class="contenidoPrincipal__titulo">Contacto</h2>
+
+        <div class="bg-image-contacto">
+        </div>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__etiqueta" for="nombre">Nombre</label>
+                <input class="campo__entrada" type="text" id="nombre" placeholder="Tu Nombre...">    
+            </div>
+            <div class="campo">
+                <label class="campo__etiqueta" for="email">E-Mail</label>
+                <input class="campo__entrada" type="email" id="email" placeholder="Tu Correo...">
+            </div>
+            <div class="campo campo--mensaje">
+                <label class="campo__etiqueta campo__etiqueta--mensaje" for="mensaje">Mensaje</label>
+                <textarea class="campo__entrada" cols="30" id="mensaje" rows="4"></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="boton bg-main-color">
+        </form>
+    </main>
+
+    <div class="bg-main-color">
+        <footer class="footer max-width-1200">
+            <a class="footer__logo" href="index.html"><span class="footer__logo--fontBold">Code</span>Genius</a>
+            <nav class="navMenu">
+                <a class="navMenu__link" href="nosotros.html">Acerca de</a>
+                <a class="navMenu__link" href="cursos.html">Cursos</a>
+                <a class="navMenu__link" href="contacto.html">Contacto</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
