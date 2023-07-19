@@ -259,6 +259,18 @@ input[type="submit"]{
     padding: .5em 1em;
 }
 
+@media (min-width: 768px){
+    .botonCursosIndex{
+        padding: .5em .5em;
+    }
+}
+
+@media (min-width: 1024px){
+    .botonCursosIndex{
+        padding: .5em 1em;
+    }
+}
+
 .boton:hover{
     background-color: var(--colorPrincipalVariacion);
 }
